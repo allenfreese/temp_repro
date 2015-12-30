@@ -1,5 +1,7 @@
-#!/bin/bash 
+#!/bin/bash
 mkdir converted_icons
+
+mkdir temp
          
 cp icon.png converted_icons/Icon-60@2x.png
 sips -Z 120 converted_icons/Icon-60@2x.png
